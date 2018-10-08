@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Sprintscan Result Tracking Table" max_length="40" name="x_23632_sprintscan_result_tracking_table" type="collection">
+        <element label="definition.best_practice_url" max_length="40" name="definition_best_practice_url" type="string"/>
+        <element label="definition.category" max_length="40" name="definition_category" type="string"/>
+        <element label="definition.recommendation" max_length="40" name="definition_recommendation" type="string"/>
+        <element label="defintion.rating" max_length="40" name="defintion_rating" type="string"/>
+        <element label="finding.execution_id" max_length="40" name="finding_execution_id" type="string"/>
+        <element label="finding.identifier" max_length="40" name="finding_identifier" type="string"/>
+        <element label="finding.number" max_length="40" name="finding_number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="product" max_length="40" name="product" type="string"/>
+        <element label="Short description" max_length="40" name="short_description" type="string"/>
+        <element label="Source display" max_length="40" name="source_display" type="string"/>
+        <element label="Source link" max_length="40" name="source_link" type="string"/>
+        <element label="Source sys ID" max_length="40" name="source_sys_id" type="string"/>
+        <element label="Source sys updated by" max_length="40" name="source_sys_updated_by" type="string"/>
+        <element label="Source sys updated on" max_length="40" name="source_sys_updated_on" type="string"/>
+        <element label="Source table pretty" max_length="40" name="source_table_pretty" type="string"/>
+        <element label="Source value" max_length="40" name="source_value" type="string"/>
+    </element>
+</database>
