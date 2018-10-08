@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Sprintscan Result Tracking Table" max_length="40" name="x_23632_sprintscan_result_tracking_table" type="collection">
+        <element label="Action" max_length="40" name="action" type="string"/>
         <element label="definition.best_practice_url" max_length="40" name="definition_best_practice_url" type="string"/>
         <element label="definition.category" max_length="40" name="definition_category" type="string"/>
         <element label="definition.recommendation" max_length="40" name="definition_recommendation" type="string"/>
         <element label="defintion.rating" max_length="40" name="defintion_rating" type="string"/>
+        <element label="External Reference" max_length="40" name="external_reference" type="string"/>
         <element label="finding.execution_id" max_length="40" name="finding_execution_id" type="string"/>
         <element label="finding.identifier" max_length="40" name="finding_identifier" type="string"/>
         <element label="finding.number" max_length="40" name="finding_number" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Outcome" max_length="40" name="outcome" type="string"/>
+        <element choice="3" label="Owner" max_length="32" name="owner" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
+            <choice/>
+        </element>
         <element label="product" max_length="40" name="product" type="string"/>
         <element label="Short description" max_length="40" name="short_description" type="string"/>
         <element label="Source display" max_length="40" name="source_display" type="string"/>
@@ -18,5 +24,32 @@
         <element label="Source sys updated on" max_length="40" name="source_sys_updated_on" type="string"/>
         <element label="Source table pretty" max_length="40" name="source_table_pretty" type="string"/>
         <element label="Source value" max_length="40" name="source_value" type="string"/>
+        <element choice="1" default="new" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="New" sequence="1" value="new"/>
+                <element label="Discuss" sequence="2" value="discuss"/>
+                <element label="Repair" sequence="3" value="repair"/>
+                <element label="Resolved" sequence="4" value="resolved"/>
+                <element label="Closed" sequence="5" value="closed"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="status" dependent_on_field="status" label="Sub Status" max_length="40" name="sub_status" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="resolved" label="Addressed" sequence="0"/>
+                <element dependent_value="closed" label="Fixed" sequence="0"/>
+                <element dependent_value="discuss" label="HPSE" sequence="0"/>
+                <element dependent_value="repair" label="Planned" sequence="0"/>
+                <element dependent_value="closed" label="Accepted" sequence="1"/>
+                <element dependent_value="discuss" label="Business" sequence="1"/>
+                <element dependent_value="repair" label="In Progress" sequence="1"/>
+                <element dependent_value="resolved" label="Monitor" sequence="1"/>
+                <element dependent_value="closed" label="Invalid" sequence="2"/>
+                <element dependent_value="repair" label="On Hold" sequence="2"/>
+                <element dependent_value="discuss" label="ServiceNow" sequence="2"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="owner"/>
+        </index>
     </element>
 </database>

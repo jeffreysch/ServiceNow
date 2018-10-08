@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="sprintscanload" max_length="40" name="x_23632_sprintscan_sprintscanl" type="collection">
+        <element attributes="import_attribute_name=definition.best_practice_url,edge_encryption_enabled=true" label="definition.best_practice_url" max_length="158" name="u_definition_best_practice_url" type="string"/>
+        <element attributes="import_attribute_name=definition.category,edge_encryption_enabled=true" label="definition.category" max_length="40" name="u_definition_category" type="string"/>
+        <element attributes="import_attribute_name=definition.rating,edge_encryption_enabled=true" label="definition.rating" max_length="40" name="u_definition_rating" type="string"/>
+        <element attributes="import_attribute_name=definition.recommendation,edge_encryption_enabled=true" label="definition.recommendation" max_length="833" name="u_definition_recommendation" type="string"/>
+        <element attributes="import_attribute_name=execution.instance,edge_encryption_enabled=true" label="execution.instance" max_length="40" name="u_execution_instance" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="finding.execution" max_length="40" name="u_finding_execution" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="finding.identifier" max_length="40" name="u_finding_identifier" type="string"/>
+        <element attributes="import_attribute_name=is_new,edge_encryption_enabled=true" label="is_new" max_length="40" name="u_is_new" type="string"/>
+        <element attributes="import_attribute_name=number,edge_encryption_enabled=true" label="number" max_length="40" name="u_number" type="string"/>
+        <element attributes="import_attribute_name=product,edge_encryption_enabled=true" label="product" max_length="40" name="u_product" type="string"/>
+        <element attributes="import_attribute_name=product_table,edge_encryption_enabled=true" label="product_table" max_length="40" name="u_product_table" type="string"/>
+        <element attributes="import_attribute_name=short_description,edge_encryption_enabled=true" label="short_description" max_length="77" name="u_short_description" type="string"/>
+        <element attributes="import_attribute_name=source_base_file,edge_encryption_enabled=true" label="source_base_file" max_length="40" name="u_source_base_file" type="string"/>
+        <element attributes="import_attribute_name=source_base_version,edge_encryption_enabled=true" label="source_base_version" max_length="40" name="u_source_base_version" type="string"/>
+        <element attributes="import_attribute_name=source_current_ver_src_display,edge_encryption_enabled=true" label="source_current_ver_src_display" max_length="90" name="u_source_curre_er_src_display" type="string"/>
+        <element attributes="import_attribute_name=source_display,edge_encryption_enabled=true" label="source_display" max_length="40" name="u_source_display" type="string"/>
+        <element attributes="import_attribute_name=source_link,edge_encryption_enabled=true" label="source_link" max_length="218" name="u_source_link" type="string"/>
+        <element attributes="import_attribute_name=source_sys_created_by,edge_encryption_enabled=true" label="source_sys_created_by" max_length="40" name="u_source_sys_created_by" type="string"/>
+        <element attributes="import_attribute_name=source_sys_created_on" label="source_sys_created_on" max_length="40" name="u_source_sys_created_on" type="glide_date_time"/>
+        <element attributes="import_attribute_name=source_sys_id,edge_encryption_enabled=true" label="source_sys_id" max_length="40" name="u_source_sys_id" type="string"/>
+        <element attributes="import_attribute_name=source_sys_updated_by,edge_encryption_enabled=true" label="source_sys_updated_by" max_length="40" name="u_source_sys_updated_by" type="string"/>
+        <element attributes="import_attribute_name=source_sys_updated_on" label="source_sys_updated_on" max_length="40" name="u_source_sys_updated_on" type="glide_date_time"/>
+        <element attributes="import_attribute_name=source_table,edge_encryption_enabled=true" label="source_table" max_length="40" name="u_source_table" type="string"/>
+        <element attributes="import_attribute_name=source_table_pretty,edge_encryption_enabled=true" label="source_table_pretty" max_length="41" name="u_source_table_pretty" type="string"/>
+        <element attributes="import_attribute_name=source_value,edge_encryption_enabled=true" label="source_value" max_length="100" name="u_source_value" type="string"/>
+    </element>
+</database>
