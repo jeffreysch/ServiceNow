@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Reference" section_id="ea670355db8923006a6398e9db96190b" sys_domain="global" table="x_23632_sprintscan_result_tracking_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>definition_category</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-08 23:27:52</sys_created_on>
+            <sys_id>bf988f55db8923006a6398e9db96197f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reference" display_value="Reference" name="x_23632_sprintscan_result_tracking_table" sys_domain="global" view="Default view">ea670355db8923006a6398e9db96190b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-08 23:27:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>definition_recommendation</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-08 23:27:52</sys_created_on>
+            <sys_id>33988f55db8923006a6398e9db961980</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reference" display_value="Reference" name="x_23632_sprintscan_result_tracking_table" sys_domain="global" view="Default view">ea670355db8923006a6398e9db96190b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-08 23:27:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>definition_best_practice_url</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-08 23:27:52</sys_created_on>
+            <sys_id>b3988f55db8923006a6398e9db961980</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reference" display_value="Reference" name="x_23632_sprintscan_result_tracking_table" sys_domain="global" view="Default view">ea670355db8923006a6398e9db96190b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-08 23:27:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Reference</caption>
+            <header>false</header>
+            <name>x_23632_sprintscan_result_tracking_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-08 23:22:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea670355db8923006a6398e9db96190b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Reference</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SprintScan result tracking" source="x_23632_sprintscan">9ab57259db4923006a6398e9db9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SprintScan result tracking">9ab57259db4923006a6398e9db9619be</sys_scope>
+            <sys_update_name>sys_ui_section_ea670355db8923006a6398e9db96190b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-08 23:27:50</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
