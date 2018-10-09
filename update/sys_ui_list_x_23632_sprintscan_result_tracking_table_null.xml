@@ -4,152 +4,107 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_23632_sprintscan_result_tracking_table" element="NULL" name="x_23632_sprintscan_result_tracking_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8d1b365ddb4923006a6398e9db961987</list_id>
+            <list_id display_value="x_23632_sprintscan_result_tracking_table" element="NULL" name="x_23632_sprintscan_result_tracking_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e8ccbf51db0d23006a6398e9db961966</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-08 22:28:42</sys_created_on>
-            <sys_id>051b365ddb4923006a6398e9db961988</sys_id>
+            <sys_created_on>2018-10-09 03:15:39</sys_created_on>
+            <sys_id>60ccbf51db0d23006a6398e9db961967</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 22:28:42</sys_updated_on>
+            <sys_updated_on>2018-10-09 03:15:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>definition_best_practice_url</element>
-            <list_id display_value="x_23632_sprintscan_result_tracking_table" element="NULL" name="x_23632_sprintscan_result_tracking_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8d1b365ddb4923006a6398e9db961987</list_id>
+            <element>product</element>
+            <list_id display_value="x_23632_sprintscan_result_tracking_table" element="NULL" name="x_23632_sprintscan_result_tracking_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e8ccbf51db0d23006a6398e9db961966</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-08 22:28:42</sys_created_on>
-            <sys_id>851b365ddb4923006a6398e9db961988</sys_id>
+            <sys_created_on>2018-10-09 03:15:39</sys_created_on>
+            <sys_id>e0ccbf51db0d23006a6398e9db961967</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 22:28:42</sys_updated_on>
+            <sys_updated_on>2018-10-09 03:15:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>definition_category</element>
-            <list_id display_value="x_23632_sprintscan_result_tracking_table" element="NULL" name="x_23632_sprintscan_result_tracking_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8d1b365ddb4923006a6398e9db961987</list_id>
+            <element>defintion_rating</element>
+            <list_id display_value="x_23632_sprintscan_result_tracking_table" element="NULL" name="x_23632_sprintscan_result_tracking_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e8ccbf51db0d23006a6398e9db961966</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-08 22:28:42</sys_created_on>
-            <sys_id>091b365ddb4923006a6398e9db961988</sys_id>
+            <sys_created_on>2018-10-09 03:15:39</sys_created_on>
+            <sys_id>64ccbf51db0d23006a6398e9db961967</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 22:28:42</sys_updated_on>
+            <sys_updated_on>2018-10-09 03:15:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>definition_recommendation</element>
-            <list_id display_value="x_23632_sprintscan_result_tracking_table" element="NULL" name="x_23632_sprintscan_result_tracking_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8d1b365ddb4923006a6398e9db961987</list_id>
+            <element>short_description</element>
+            <list_id display_value="x_23632_sprintscan_result_tracking_table" element="NULL" name="x_23632_sprintscan_result_tracking_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e8ccbf51db0d23006a6398e9db961966</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-08 22:28:42</sys_created_on>
-            <sys_id>891b365ddb4923006a6398e9db961988</sys_id>
+            <sys_created_on>2018-10-09 03:15:39</sys_created_on>
+            <sys_id>e4ccbf51db0d23006a6398e9db961967</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 22:28:42</sys_updated_on>
+            <sys_updated_on>2018-10-09 03:15:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>defintion_rating</element>
-            <list_id display_value="x_23632_sprintscan_result_tracking_table" element="NULL" name="x_23632_sprintscan_result_tracking_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8d1b365ddb4923006a6398e9db961987</list_id>
+            <element>owner</element>
+            <list_id display_value="x_23632_sprintscan_result_tracking_table" element="NULL" name="x_23632_sprintscan_result_tracking_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e8ccbf51db0d23006a6398e9db961966</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-08 22:28:42</sys_created_on>
-            <sys_id>0d1b365ddb4923006a6398e9db961988</sys_id>
+            <sys_created_on>2018-10-09 03:15:39</sys_created_on>
+            <sys_id>68ccbf51db0d23006a6398e9db961967</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 22:28:42</sys_updated_on>
+            <sys_updated_on>2018-10-09 03:15:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>finding_execution_id</element>
-            <list_id display_value="x_23632_sprintscan_result_tracking_table" element="NULL" name="x_23632_sprintscan_result_tracking_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8d1b365ddb4923006a6398e9db961987</list_id>
+            <element>status</element>
+            <list_id display_value="x_23632_sprintscan_result_tracking_table" element="NULL" name="x_23632_sprintscan_result_tracking_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e8ccbf51db0d23006a6398e9db961966</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-08 22:28:42</sys_created_on>
-            <sys_id>8d1b365ddb4923006a6398e9db961988</sys_id>
+            <sys_created_on>2018-10-09 03:15:39</sys_created_on>
+            <sys_id>e8ccbf51db0d23006a6398e9db961967</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 22:28:42</sys_updated_on>
+            <sys_updated_on>2018-10-09 03:15:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>finding_identifier</element>
-            <list_id display_value="x_23632_sprintscan_result_tracking_table" element="NULL" name="x_23632_sprintscan_result_tracking_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8d1b365ddb4923006a6398e9db961987</list_id>
+            <element>sub_status</element>
+            <list_id display_value="x_23632_sprintscan_result_tracking_table" element="NULL" name="x_23632_sprintscan_result_tracking_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e8ccbf51db0d23006a6398e9db961966</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-08 22:28:42</sys_created_on>
-            <sys_id>011b365ddb4923006a6398e9db961989</sys_id>
+            <sys_created_on>2018-10-09 03:15:39</sys_created_on>
+            <sys_id>6cccbf51db0d23006a6398e9db961967</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 22:28:42</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>finding_number</element>
-            <list_id display_value="x_23632_sprintscan_result_tracking_table" element="NULL" name="x_23632_sprintscan_result_tracking_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8d1b365ddb4923006a6398e9db961987</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>7</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-08 22:28:42</sys_created_on>
-            <sys_id>811b365ddb4923006a6398e9db961989</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 22:28:42</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>product</element>
-            <list_id display_value="x_23632_sprintscan_result_tracking_table" element="NULL" name="x_23632_sprintscan_result_tracking_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8d1b365ddb4923006a6398e9db961987</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>8</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-08 22:28:42</sys_created_on>
-            <sys_id>051b365ddb4923006a6398e9db961989</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 22:28:42</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>short_description</element>
-            <list_id display_value="x_23632_sprintscan_result_tracking_table" element="NULL" name="x_23632_sprintscan_result_tracking_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8d1b365ddb4923006a6398e9db961987</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>9</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-08 22:28:42</sys_created_on>
-            <sys_id>851b365ddb4923006a6398e9db961989</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 22:28:42</sys_updated_on>
+            <sys_updated_on>2018-10-09 03:15:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -163,10 +118,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-08 22:28:42</sys_created_on>
+            <sys_created_on>2018-10-09 03:15:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8d1b365ddb4923006a6398e9db961987</sys_id>
+            <sys_id>e8ccbf51db0d23006a6398e9db961966</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_23632_sprintscan_result_tracking_table</sys_name>
             <sys_package display_value="SprintScan result tracking" source="x_23632_sprintscan">9ab57259db4923006a6398e9db9619be</sys_package>
@@ -174,7 +129,7 @@
             <sys_scope display_value="SprintScan result tracking">9ab57259db4923006a6398e9db9619be</sys_scope>
             <sys_update_name>sys_ui_list_x_23632_sprintscan_result_tracking_table_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 22:28:42</sys_updated_on>
+            <sys_updated_on>2018-10-09 03:15:39</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
