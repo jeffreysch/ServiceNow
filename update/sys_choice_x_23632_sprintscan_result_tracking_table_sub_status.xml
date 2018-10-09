@@ -2,7 +2,7 @@
 <record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="sub_status" table="x_23632_sprintscan_result_tracking_table" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>resolved</dependent_value>
+            <dependent_value>Resolved</dependent_value>
             <element>sub_status</element>
             <hint/>
             <inactive>false</inactive>
@@ -15,13 +15,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>8e858bd1db8923006a6398e9db961927</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 23:16:59</sys_updated_on>
-            <value/>
+            <sys_updated_on>2018-10-09 05:44:54</sys_updated_on>
+            <value>addressed</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>closed</dependent_value>
+            <dependent_value>Closed</dependent_value>
             <element>sub_status</element>
             <hint/>
             <inactive>false</inactive>
@@ -34,13 +34,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f0958bd1db8923006a6398e9db96197e</sys_id>
-            <sys_mod_count>5</sys_mod_count>
+            <sys_mod_count>7</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-09 03:10:24</sys_updated_on>
-            <value/>
+            <sys_updated_on>2018-10-09 05:44:14</sys_updated_on>
+            <value>fixed</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>discuss</dependent_value>
+            <dependent_value>Discuss</dependent_value>
             <element>sub_status</element>
             <hint/>
             <inactive>false</inactive>
@@ -53,13 +53,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>0865c3d1db8923006a6398e9db9619dd</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 23:16:26</sys_updated_on>
-            <value/>
+            <sys_updated_on>2018-10-09 05:44:37</sys_updated_on>
+            <value>hpse</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>repair</dependent_value>
+            <dependent_value>Repair</dependent_value>
             <element>sub_status</element>
             <hint/>
             <inactive>false</inactive>
@@ -72,13 +72,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>23754b91db8923006a6398e9db96193a</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 23:16:51</sys_updated_on>
-            <value/>
+            <sys_updated_on>2018-10-09 05:44:40</sys_updated_on>
+            <value>planned</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>closed</dependent_value>
+            <dependent_value>Closed</dependent_value>
             <element>sub_status</element>
             <hint/>
             <inactive>false</inactive>
@@ -91,13 +91,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>4e954bd1db8923006a6398e9db9619af</sys_id>
-            <sys_mod_count>5</sys_mod_count>
+            <sys_mod_count>7</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-09 03:10:27</sys_updated_on>
-            <value/>
+            <sys_updated_on>2018-10-09 05:44:22</sys_updated_on>
+            <value>accepted</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>discuss</dependent_value>
+            <dependent_value>Discuss</dependent_value>
             <element>sub_status</element>
             <hint/>
             <inactive>false</inactive>
@@ -110,13 +110,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>5365c3d1db8923006a6398e9db9619de</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 23:16:28</sys_updated_on>
-            <value/>
+            <sys_updated_on>2018-10-09 05:44:33</sys_updated_on>
+            <value>business</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>repair</dependent_value>
+            <dependent_value>Repair</dependent_value>
             <element>sub_status</element>
             <hint/>
             <inactive>false</inactive>
@@ -129,13 +129,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>1e75cb91db8923006a6398e9db961944</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 23:16:53</sys_updated_on>
-            <value/>
+            <sys_updated_on>2018-10-09 05:44:44</sys_updated_on>
+            <value>inprogress</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>resolved</dependent_value>
+            <dependent_value>Resolved</dependent_value>
             <element>sub_status</element>
             <hint/>
             <inactive>false</inactive>
@@ -148,13 +148,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b3854bd1db8923006a6398e9db9619de</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 23:16:58</sys_updated_on>
-            <value/>
+            <sys_updated_on>2018-10-09 05:44:50</sys_updated_on>
+            <value>monitor</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>closed</dependent_value>
+            <dependent_value>Closed</dependent_value>
             <element>sub_status</element>
             <hint/>
             <inactive>false</inactive>
@@ -167,13 +167,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>db954bd1db8923006a6398e9db9619de</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-09 03:10:29</sys_updated_on>
-            <value/>
+            <sys_updated_on>2018-10-09 05:44:17</sys_updated_on>
+            <value>invalid</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>repair</dependent_value>
+            <dependent_value>Repair</dependent_value>
             <element>sub_status</element>
             <hint/>
             <inactive>false</inactive>
@@ -186,13 +186,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>518547d1db8923006a6398e9db961922</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 23:16:55</sys_updated_on>
-            <value/>
+            <sys_updated_on>2018-10-09 05:44:47</sys_updated_on>
+            <value>onhold</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>discuss</dependent_value>
+            <dependent_value>Discuss</dependent_value>
             <element>sub_status</element>
             <hint/>
             <inactive>false</inactive>
@@ -205,10 +205,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>597587d1db8923006a6398e9db96195c</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 23:16:30</sys_updated_on>
-            <value/>
+            <sys_updated_on>2018-10-09 05:44:30</sys_updated_on>
+            <value>vendor</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>sub_status</element>

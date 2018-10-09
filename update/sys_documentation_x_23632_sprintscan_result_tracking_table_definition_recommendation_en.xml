@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="definition_recommendation" label="definition.recommendation" language="en" table="x_23632_sprintscan_result_tracking_table">
+    <sys_documentation element="definition_recommendation" label="Recommendation" language="en" table="x_23632_sprintscan_result_tracking_table">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>definition_recommendation</element>
             <help/>
             <hint/>
-            <label>definition.recommendation</label>
+            <label>Recommendation</label>
             <language>en</language>
             <name>x_23632_sprintscan_result_tracking_table</name>
-            <plural>definition.recommendations</plural>
+            <plural>Recommendations</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-10-08 22:12:33</sys_created_on>
             <sys_id>a86732d9db4923006a6398e9db9619a7</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_name>definition.recommendation</sys_name>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>Recommendation</sys_name>
             <sys_package display_value="SprintScan result tracking" source="x_23632_sprintscan">9ab57259db4923006a6398e9db9619be</sys_package>
             <sys_policy/>
             <sys_scope display_value="SprintScan result tracking">9ab57259db4923006a6398e9db9619be</sys_scope>
             <sys_update_name>sys_documentation_x_23632_sprintscan_result_tracking_table_definition_recommendation_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 23:27:51</sys_updated_on>
+            <sys_updated_on>2018-10-09 05:53:25</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

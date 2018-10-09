@@ -2,50 +2,50 @@
 <database>
     <element label="Sprintscan Result Tracking Table" max_length="40" name="x_23632_sprintscan_result_tracking_table" type="collection">
         <element label="Action" max_length="40" name="action" type="string"/>
-        <element label="definition.best_practice_url" max_length="40" name="definition_best_practice_url" read_only="true" type="url"/>
-        <element label="definition.category" max_length="40" name="definition_category" read_only="true" type="string"/>
-        <element label="definition.recommendation" max_length="40" name="definition_recommendation" read_only="true" type="string"/>
-        <element label="defintion.rating" max_length="40" name="defintion_rating" read_only="true" type="string"/>
-        <element label="External Reference" max_length="40" name="external_reference" type="string"/>
-        <element label="Execution ID" max_length="40" name="finding_execution_id" type="string"/>
-        <element label="Identifier" max_length="40" name="finding_identifier" type="string"/>
-        <element label="Number" max_length="40" name="finding_number" type="string"/>
+        <element label="Reference URL" max_length="250" name="definition_best_practice_url" read_only="true" type="url"/>
+        <element label="Category" max_length="40" name="definition_category" read_only="true" type="string"/>
+        <element label="Recommendation" max_length="500" name="definition_recommendation" read_only="true" type="string"/>
+        <element label="Rating" max_length="40" name="defintion_rating" read_only="true" type="string"/>
+        <element label="External Reference" max_length="250" name="external_reference" type="url"/>
+        <element label="Execution ID" max_length="20" name="finding_execution_id" type="string"/>
+        <element label="Identifier" max_length="60" name="finding_identifier" type="string"/>
+        <element label="Finding Number" max_length="40" name="finding_number" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Outcome" max_length="40" name="outcome" type="string"/>
+        <element label="Outcome" max_length="500" name="outcome" type="string"/>
         <element choice="3" label="Owner" max_length="32" name="owner" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference">
             <choice/>
         </element>
         <element label="Product" max_length="40" name="product" read_only="true" type="string"/>
-        <element label="Short description" max_length="40" name="short_description" type="string"/>
+        <element label="Short description" max_length="500" name="short_description" type="string"/>
         <element label="Source display" max_length="40" name="source_display" type="string"/>
         <element label="Source link" max_length="40" name="source_link" type="string"/>
         <element label="Source sys ID" max_length="40" name="source_sys_id" type="string"/>
         <element label="Source sys updated by" max_length="40" name="source_sys_updated_by" type="string"/>
         <element label="Source sys updated on" max_length="40" name="source_sys_updated_on" type="string"/>
         <element label="Source table pretty" max_length="40" name="source_table_pretty" read_only="true" type="string"/>
-        <element label="Source value" max_length="40" name="source_value" type="string"/>
+        <element label="Source value" max_length="500" name="source_value" type="string"/>
         <element choice="1" default="new" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element label="New" sequence="1" value="new"/>
-                <element label="Discuss" sequence="2" value="discuss"/>
-                <element label="Repair" sequence="3" value="repair"/>
-                <element label="Resolved" sequence="4" value="resolved"/>
-                <element label="Closed" sequence="5" value="closed"/>
+                <element label="Discuss" sequence="2" value="Discuss"/>
+                <element label="Repair" sequence="3" value="Repair"/>
+                <element label="Resolved" sequence="4" value="Resolved"/>
+                <element label="Closed" sequence="5" value="Closed"/>
             </choice>
         </element>
-        <element choice="1" dependent="status" dependent_on_field="status" label="Sub Status" max_length="40" name="sub_status" type="choice" use_dependent_field="true">
+        <element choice="1" dependent="status" dependent_on_field="status" display="true" label="Sub Status" mandatory="true" max_length="40" name="sub_status" type="choice" use_dependent_field="true">
             <choice>
-                <element dependent_value="resolved" label="Addressed" sequence="0"/>
-                <element dependent_value="closed" label="Fixed" sequence="0"/>
-                <element dependent_value="discuss" label="HPSE" sequence="0"/>
-                <element dependent_value="repair" label="Planned" sequence="0"/>
-                <element dependent_value="closed" label="Accepted" sequence="1"/>
-                <element dependent_value="discuss" label="Business" sequence="1"/>
-                <element dependent_value="repair" label="In Progress" sequence="1"/>
-                <element dependent_value="resolved" label="Monitor" sequence="1"/>
-                <element dependent_value="closed" label="Invalid" sequence="2"/>
-                <element dependent_value="repair" label="On Hold" sequence="2"/>
-                <element dependent_value="discuss" label="ServiceNow" sequence="2"/>
+                <element dependent_value="Resolved" label="Addressed" sequence="0" value="addressed"/>
+                <element dependent_value="Closed" label="Fixed" sequence="0" value="fixed"/>
+                <element dependent_value="Discuss" label="HPSE" sequence="0" value="hpse"/>
+                <element dependent_value="Repair" label="Planned" sequence="0" value="planned"/>
+                <element dependent_value="Closed" label="Accepted" sequence="1" value="accepted"/>
+                <element dependent_value="Discuss" label="Business" sequence="1" value="business"/>
+                <element dependent_value="Repair" label="In Progress" sequence="1" value="inprogress"/>
+                <element dependent_value="Resolved" label="Monitor" sequence="1" value="monitor"/>
+                <element dependent_value="Closed" label="Invalid" sequence="2" value="invalid"/>
+                <element dependent_value="Repair" label="On Hold" sequence="2" value="onhold"/>
+                <element dependent_value="Discuss" label="ServiceNow" sequence="2" value="vendor"/>
             </choice>
         </element>
         <index name="index">

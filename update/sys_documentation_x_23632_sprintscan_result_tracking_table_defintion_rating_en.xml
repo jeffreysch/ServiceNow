@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="defintion_rating" label="defintion.rating" language="en" table="x_23632_sprintscan_result_tracking_table">
+    <sys_documentation element="defintion_rating" label="Rating" language="en" table="x_23632_sprintscan_result_tracking_table">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>defintion_rating</element>
             <help/>
             <hint/>
-            <label>defintion.rating</label>
+            <label>Rating</label>
             <language>en</language>
             <name>x_23632_sprintscan_result_tracking_table</name>
-            <plural>defintion.ratings</plural>
+            <plural>Ratings</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-10-08 22:12:33</sys_created_on>
             <sys_id>686732d9db4923006a6398e9db9619ae</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_name>defintion.rating</sys_name>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Rating</sys_name>
             <sys_package display_value="SprintScan result tracking" source="x_23632_sprintscan">9ab57259db4923006a6398e9db9619be</sys_package>
             <sys_policy/>
             <sys_scope display_value="SprintScan result tracking">9ab57259db4923006a6398e9db9619be</sys_scope>
             <sys_update_name>sys_documentation_x_23632_sprintscan_result_tracking_table_defintion_rating_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-08 23:27:51</sys_updated_on>
+            <sys_updated_on>2018-10-09 05:51:09</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
